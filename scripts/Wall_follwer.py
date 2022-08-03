@@ -7,10 +7,6 @@ from tf import transformations
 
 import math
 
-pub_ = None
-
-
-
 class WallFollower:
     def __init__(self):
         print("__init__ called.")
