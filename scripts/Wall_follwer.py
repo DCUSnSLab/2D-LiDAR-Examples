@@ -35,7 +35,7 @@ class WallFollower:
             'left': min(data.ranges[270:299]),
         }
 
-        distance = 1.0
+        distance = 2.0
 
         self.take_action(distance)
 
