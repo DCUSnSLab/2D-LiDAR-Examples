@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import rospy
 from sensor_msgs.msg import LaserScan
 from std_msgs.msg import Float64
