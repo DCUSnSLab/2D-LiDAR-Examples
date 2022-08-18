@@ -32,7 +32,7 @@ def callback(data):
             position.publish(degTorad(-11))
     else:
         speed.publish(10000)
-        position.publish(0.5304)
+        position.publish(degTorad(0))
 
 if __name__ == '__main__':
     rospy.init_node("ObjectAvoid")
