@@ -3,6 +3,11 @@ import rospy
 from std_msgs.msg import Float64
 from sensor_msgs.msg import LaserScan
 
+def degTorad(deg):
+	rad_diff = 0.5304
+	rad = deg * (3.14/180)
+	return rad + rad_diff
+
 def callback(data):
     '''
     Publisher speed,
